@@ -1,0 +1,134 @@
+/**********TAG SELECTORS**********/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+footer{
+  background-color: white;
+  padding: 5%;
+  text-align: center;
+}
+h1{
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+h2{
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+p{
+  color: #8f8f8f;
+  line-height: 1.5;
+}
+/**********BOOTSTRAP CLASS SELECTORS**********/
+.container-fluid{
+  padding: 3% 15% 10%;
+}
+.nav-item{
+  margin: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.navbar{
+  margin-bottom: 4.5rem;
+  padding: 0;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+/**********MY CLASS SELECTORS**********/
+.ctaheading{
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+.ctasection{
+  background-color: #ff4c68;
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+.dogimg{
+  position: absolute;
+  right: 30%;
+  transform: rotate(25deg);
+  width: 60%;
+  z-index: 1;
+}
+.downloadbutton{
+  margin: 5% 3% 5% 0;
+}
+.featurecolumn{
+  padding: 5%;
+}
+.featureicon{
+  color: #ef8172;
+  margin: 8% 0;
+}
+.featureicon:hover{
+  color: #ff4c68;
+}
+.featuresection{
+  background-color: white;
+  padding: 7% 15%;
+  position: relative;
+  text-align: center;
+  z-index: 3;
+}
+.footericon{
+  margin: 25px 15px;
+}
+.presslogo{
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+.presssection{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.pricingcolumn{
+  padding: 3% 2%;
+}
+.pricingsection{
+  padding: 100px;
+  text-align: center;
+}
+.testimonialimage{
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+.testimonialitem{
+  padding: 7% 15%;
+}
+.testimonialsection{
+  background-color: #ef8172;
+  color: white;
+  text-align: center;
+}
+.titlesection{
+  color: white;
+  background-color: #ff4c68;
+}
+/**********MEDIA QUERY SELECTORS**********/
+@media (max-width: 1180px) {
+  .dogimg{
+    margin-top: 10%;
+    position: relative;
+    right: 0;
+    transform: none;
+  }
+  .titlesection{
+    text-align: center;
+  }
+}
