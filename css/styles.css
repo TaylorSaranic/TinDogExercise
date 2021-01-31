@@ -1,34 +1,23 @@
 /**********TAG SELECTORS**********/
 body{
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    line-height: 1.5;
 }
 footer{
   background-color: white;
   padding: 5%;
   text-align: center;
 }
-h1{
-  font-size: 3.5rem;
-  font-weight: 900;
-  line-height: 1.5;
-}
-h2{
+h1,h2,h3,h4,h5,h6{
   font-weight: 600;
-  font-size: 3rem;
-  line-height: 1.5;
-}
-h3{
-  font-size: 1.2rem;
-  font-weight: 600;
-  line-height: 1.5;
 }
 p{
   color: #8f8f8f;
-  line-height: 1.5;
 }
 /**********BOOTSTRAP CLASS SELECTORS**********/
 .container-fluid{
-  padding: 3% 15% 10%;
+  padding: 7% 15%;
 }
 .nav-item{
   margin: 0 18px;
@@ -47,15 +36,13 @@ p{
   font-weight: bold;
 }
 /**********MY CLASS SELECTORS**********/
-.ctaheading{
-  font-size: 3.5rem;
-  font-weight: 900;
+.bigheading{
+    font-size: 3.5rem;
+    font-weight: 900;
 }
 .ctasection{
   background-color: #ff4c68;
   color: white;
-  padding: 7% 15%;
-  text-align: center;
 }
 .dogimg{
   position: absolute;
@@ -70,6 +57,9 @@ p{
 .featurecolumn{
   padding: 5%;
 }
+.featureheading{
+  font-size: 2.5rem;
+}
 .featureicon{
   color: #ef8172;
   margin: 8% 0;
@@ -79,9 +69,7 @@ p{
 }
 .featuresection{
   background-color: white;
-  padding: 7% 15%;
   position: relative;
-  text-align: center;
   z-index: 3;
 }
 .footericon{
@@ -94,31 +82,35 @@ p{
 .presssection{
   background-color: #ef8172;
   padding-bottom: 3%;
-  text-align: center;
 }
 .pricingcolumn{
   padding: 3% 2%;
 }
-.pricingsection{
-  padding: 100px;
-  text-align: center;
+.pricingheading{
+  font-size: 3rem;
+}
+.pricingname{
+  font-size: 1.2rem;
 }
 .testimonialimage{
   border-radius: 100%;
   margin: 20px;
   width: 10%;
 }
-.testimonialitem{
-  padding: 7% 15%;
-}
 .testimonialsection{
-  background-color: #ef8172;
   color: white;
-  text-align: center;
+  background-color: #ef8172;
+}
+.testimonialtext{
+  font-size: 3rem;
 }
 .titlesection{
   color: white;
   background-color: #ff4c68;
+  text-align: left;
+}
+.titlesection .container-fluid{
+  padding: 3% 15% 7%;
 }
 /**********MEDIA QUERY SELECTORS**********/
 @media (max-width: 1180px) {
